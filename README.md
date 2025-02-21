@@ -1,5 +1,4 @@
 # Sustainable-Water-Management-for-Drought-Prone-Areas
-<h1>Problem statement :: Sustainable Water Management for Drought-Prone Areas</h1><br>
 <h2>Flow Chart</h2><br>
 LINK:https://drive.google.com/file/d/146wxqhuZUyiJD6ELjqR1IZKTPYYiACim/view?usp=sharing <br> 
 https://aksht27.github.io/IIITD-Hack24-555/
