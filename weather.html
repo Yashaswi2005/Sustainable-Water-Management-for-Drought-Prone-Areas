@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="b.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    ></link>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-input">
+        <div class="weather-output">
+          <h2 class="heading">Today's Highlights</h2>
+          <div class="highligh">
+            <div class="humidity">
+              Humidity
+              <i class="fas fa-water"></i>
+              <!-- Changed to fas for FontAwesome 5+ -->
+              <h1 id="HValue"></h1>
+            </div>
+
+            <div class="wind-speed">
+              Wind Speed
+              <i class="fas fa-wind"></i>
+              <!-- Changed to fas -->
+              <h1 id="wValue"></h1>
+            </div>
+
+            <div class="sun">
+              <span>
+                <i class="fas fa-sun"></i>
+                <!-- Changed to fas -->
+                <p><span id="SRValue"></span>Sunrise</p>
+              </span>
+              <span>
+                <i class="far fa-sun"></i>
+                <!-- Changed to far -->
+                <p><span id="SSValue"></span>Sunset</p>
+              </span>
+            </div>
+
+            <div class="clouds">
+              Clouds
+              <i class="fas fa-cloud"></i>
+              <!-- Changed to fas -->
+              <h1 id="CValue"></h1>
+            </div>
+
+            <div class="uv-index">
+              UV-Index
+              <i class="fas fa-bacon"></i>
+              <!-- Changed to fas -->
+              <h1 id="UVValue"></h1>
+            </div>
+
+            <div class="pressure">
+              Pressure
+              <i class="fas fa-volcano"></i>
+              <!-- Changed to fas -->
+              <h1 id="PValue"></h1>
+            </div>
+            <br />
+            <h2 class="heading">This week's</h2>
+          <div class="fore-cast"></div>
+        </div>
+        </div>
+
+        <div class="input-group">
+          <input
+            type="text"
+            placeholder="Search for Places..."
+            id="userLocation"
+          />
+          <select class="converter" id="converter">
+            <option>°C</option>
+            <option>°F</option>
+          </select>
+          <i class="fas fa-search" onclick="findUserLocation()"></i>
+          <!-- Changed to fas -->
+           <hr>
+        </div>
+      </div>
+    </div>
+    
+    <script defer src="script.js"></script>
+</body>
+</html>
